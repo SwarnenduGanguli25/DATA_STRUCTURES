@@ -31,7 +31,7 @@ void preOrder(node* root){
 }
 
 int main(){
-	node* root=create();
+	node* root=create();       //1 2 4 -1 -1 -1 3 -1 5 -1 -1
 	preOrder(root);
 	return 0;
 }
