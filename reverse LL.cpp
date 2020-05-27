@@ -48,7 +48,15 @@ void display(){
 			temp=temp->next;
 		}
 	}
-	
+/*void reversePrint(SinglyLinkedListNode* head) {
+    if(head == NULL) {
+      return;
+   }
+   SinglyLinkedListNode* temp=new SinglyLinkedListNode(NULL);
+   temp=head;
+   reversePrint(temp->next);
+   cout<<temp->data<<endl;
+}*/
 	
 	
 int main(){
